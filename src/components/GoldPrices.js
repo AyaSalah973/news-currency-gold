@@ -12,7 +12,7 @@ const GoldPrices = () => {
       try {
         const response = await axios.get('https://www.goldapi.io/api/XAU/EGP', {
           headers: {
-            'x-access-token': 'goldapi-6s0slxzxfhem-io',
+            'x-access-token': 'goldapi-gqrlsly1xa75x-io',
             'Content-Type': 'application/json'
           }
         });
